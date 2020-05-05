@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border-style: 2px solid red; */
+}
+
+#wrapper{
+    width: 1000px;
+    margin: 0px auto;
+    background-color: #6ed6f7;
+    /* border: 1px dotted red; */
+}
+
+#top-content{
+    /* border: 1px dotted red; */
+    padding: 10px;
+}
+
+.header img{
+    /* border: 1px dotted red; */
+    margin-left: 235px;
+}
+
+#mid-content{
+    /* border: 1px dotted red; */
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.pickagame img{
+    /* border: 1px dotted red; */
+    margin-left: 322px;
+}
+
+#bottom-content{
+    /* border: 1px dotted red; */
+    padding: 10px;
+    display: inline-block;
+    width: 956px;
+}
+
+.snake{
+    margin-left:375px;
+    display: inline-block;
+    width:  219px;
+    height: 94px;
+    /* border: 1px dotted red; */
+}
+
+.snakeimage{
+    width: 225px;
+    height: 225px;
+    margin-left: 360px;
+    margin-bottom: 20px;
+    border-style: inset;
+    border-color: #6ff400;
+    /* border: 1px dotted  red; */
+}
+
+.tetris{
+    margin-left:370px;
+    display: inline-block;
+    width:  219px;
+    height: 94px;
+    /* border: 1px dotted red; */
+}
+
+.tetrisimage{
+    width: 225px;
+    height: 225px;
+    margin-left: 360px;
+    margin-bottom: 20px;
+    border-style: inset;
+    border-color: #fff86b;
+    /* border: 1px dotted  red; */
+}
+
+.flappybird{
+    margin-left:319px;
+    display: inline-block;
+    width:  219px;
+    height: 94px;
+    /* border: 1px dotted red; */
+}
+
+.flappyimage{
+    width: 225px;
+    height: 225px;
+    margin-left: 362px;
+    border-style: inset;
+    border-color: white;
+    /* border: 1px dotted  red; */
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Snake</title>
+    <!-- <link rel="stylesheet" href="web.css"> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='web.css') }}">
+    <!-- <script type="text/javascript" src="{{ url_for('static', filename='snake.js') }}"></script> -->
+    <script>require=()=>({}); module={}; module.exports=()=>({})</script>
+  </head>
+  <body>
+    <canvas id="canvas" width="700" height="500"></canvas>
+    <script type="text/javascript" src="{{ url_for('static', filename='base.js') }}"></script>
+    <!-- <script src="base.js"></script> -->
+    <script type="text/javascript" src="{{ url_for('static', filename='snake.js') }}"></script>
+    <!-- <script src="snake.js"></script> -->
+    <script type="text/javascript" src="{{ url_for('static', filename='web.js') }}"></script>
+    <!-- <script src="web.js"></script> -->
+    <script type="text/javascript" src="{{ url_for('static', filename='cli.js') }}"></script>
+
+    <button><a href="/games">Games</a></button>
+
+  </body>
+</html>

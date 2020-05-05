@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px dotted red; */
+}
+
+#wrapper{
+    width: 1000px;
+    margin: 0px auto;
+    background-color: #6ed6f7;
+    /* border: 1px dotted red; */
+}
+
+#top-content{
+    /* border: 1px dotted red; */
+    padding: 10px;
+}
+
+.header img{
+    /* border: 1px dotted red; */
+    margin-left: 235px;
+}
+
+#mid-content{
+    padding: 10px;
+    color: white;
+}
+
+#mid-content .register {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 175px;
+    /* padding: 25px; */
+}
+
+#mid-content .register p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.register button{
+    font-family: '8BITWONDERNominal';
+    font-weight: normal;
+    font-style: normal;
+    width: 115px;
+    margin-top: 10px;
+}
+
+.register button a{
+    color: black;
+    text-decoration: none;
+}

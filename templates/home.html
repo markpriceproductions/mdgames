@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="home.css"> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.new2.css') }}">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/8bit-wonder" type="text/css"/>
+    <title>M.D. Games</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="top-content">
+            <div class="header">
+                <img src="{{ url_for('static', filename='images/mdgames.jpg') }}">
+                <!-- <img src="images/mdgames.jpg" alt="MD Games logo"> -->
+                <iframe style="display: none;" width="560" height="315" src="https://www.youtuberepeater.com/watch?v=IljKQ1BdHKI#gsc.tab=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+            </div>
+        <div id="mid-content">
+            <div class="register">
+                <img src="{{ url_for('static', filename='images/register.jpg') }}">
+                <!-- <img src="images/register.jpg" alt="register"> -->
+                <form action="/register" method="POST">
+                    <p>First Name: <input type="text" name="first_name"></p>
+                    <p>Last Name: <input type="text" name="last_name"></p>
+                    <p>Email: <input type="text" name="email"></p>
+                    <p>Password: <input type="password" name="password"></p>
+                    <p>Confirm Password: <input type="password" name="confirm_password"></p>
+                    <!-- <input type="submit" value="Lets Play!"> -->
+                </form>
+                <button><a href="/games">Let's Play!</a></button>
+            </div>
+            <div class="register">
+                <img src="{{ url_for('static', filename='images/login.jpg') }}">
+                <!-- <img src="images/login.jpg" alt="login"> -->
+                            <form action="/login" method="POST">
+                <p>Email: <input type="text" name="email"></p>
+                <p>Password: <input type="password" name="password"></p>
+                <!-- <input type="submit" value="Login"> -->
+            </form>
+                <button><a href="/games">Let's Play!</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

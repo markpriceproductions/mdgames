@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="games.css"> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='games.css') }}">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/8bit-wonder" type="text/css"/>
+    <title>Games</title>
+</head>
+<body>
+        <div id="wrapper">
+                <div id="top-content">
+                    <div class="header">
+                        <img src="{{ url_for('static', filename='images/mdgames.jpg') }}">
+                        <!-- <img src="images/mdgames.jpg" alt="MD Games logo"> -->
+                        <!-- <iframe style="display: none;" width="560" height="315" src="https://www.youtuberepeater.com/watch?v=IljKQ1BdHKI#gsc.tab=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div> -->
+                    </div>
+                <div id="mid-content">
+                    <div class="pickagame">
+                        <img src="{{ url_for('static', filename='images/pickagame.jpg') }}">
+                        <!-- <img src="images/pickagame.jpg" alt="pickagame"> -->
+                    </div>
+                </div>
+                <div id="bottom-content">
+                    <div class="snake">
+                        <img src="{{ url_for('static', filename='images/snake.jpg') }}">
+                        <!-- <img src="images/snake.jpg" alt="snake"> -->
+                    </div>
+                    <div class="snakeimage">
+                        <a href="/snake"><img src="{{ url_for('static', filename='images/snake.jpeg') }}"></a>
+                        <!-- <a href="#"><img src="images/snake.jpeg" alt="snake"></a> -->
+                    </div>
+                    <div class="tetris">
+                        <img src="{{ url_for('static', filename='images/tetris.jpg') }}">
+                        <!-- <img src="images/tetris.jpg" alt="tetris"> -->
+                    </div>
+                    <div class="tetrisimage">
+                        <a href="/tetris"><img src="{{ url_for('static', filename='images/tetris.jpeg') }}"></a>
+                        <!-- <img src="{{ url_for('static', filename='images/tetris.jpeg') }}"> -->
+                        <!-- <a href="#"><img src="images/tetris.jpeg" alt="tetris"></a> -->
+                    </div>
+                    <!-- <div class="flappybird">
+                        <img src="{{ url_for('static', filename='images/flappybird.jpg') }}">
+                        <img src="images/flappybird.jpg" alt="flappybird">
+                    </div>
+                    <div class="flappyimage">
+                        <a href="/bird"><img src="{{ url_for('static', filename='images/bird.jpeg') }}"></a>
+                        <img src="{{ url_for('static', filename='images/bird.jpeg') }}">
+                        <a href="#"><img src="images/bird.jpeg" alt="flappybird"></a> 
+                    </div> -->
+
+                </div>
+            </div>
+    
+</body>
+</html>
